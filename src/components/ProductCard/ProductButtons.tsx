@@ -4,6 +4,7 @@ import styles from "../../styles/styles.module.css";
 import React from "react";
 import { ProductContext } from "./ProductContext";
 
+
 export function ProductButtons(props: { className?: string }) {
   const { cantidad, incrementBy, maxCount } = useContext(ProductContext);
 
